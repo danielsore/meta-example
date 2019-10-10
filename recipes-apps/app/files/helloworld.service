@@ -1,0 +1,9 @@
+[Unit]
+Description=A small hello world application
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/helloworld
+
+[Install]
+WantedBy=multi-user.target
