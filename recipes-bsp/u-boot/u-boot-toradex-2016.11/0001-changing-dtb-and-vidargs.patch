@@ -1,0 +1,23 @@
+diff --git a/include/configs/colibri_imx6.h b/include/configs/colibri_imx6.h
+index 8b6b36d1a8..d371cfb36c 100644
+--- a/include/configs/colibri_imx6.h
++++ b/include/configs/colibri_imx6.h
+@@ -235,7 +235,7 @@
+ 	"usbdtbload=setenv dtbparam; load usb 0:1 ${fdt_addr_r} " \
+ 		"${fdt_file} && setenv dtbparam \" - ${fdt_addr_r}\" && true\0"
+ 
+-#define FDT_FILE "imx6dl-colibri-eval-v3.dtb"
++#define FDT_FILE "imx6dl-colibri-example.dtb"
+ #define CONFIG_EXTRA_ENV_SETTINGS \
+ 	BOOTENV \
+ 	"boot_file=zImage\0" \
+@@ -262,8 +262,7 @@
+ 		"load ${interface} ${drive}:1 ${loadaddr} flash_blk.img && " \
+ 		"source ${loadaddr}\0" \
+ 	"splashpos=m,m\0" \
+-	"vidargs=video=mxcfb0:dev=lcd,640x480M@60,if=RGB666 " \
+-		"video=mxcfb1:off fbmem=8M\0"
++	"vidargs=video=mxcfb0:dev=lcd,FusionF07A,if=RGB666 video=mxcfb1:off fbmem=8\0"
+ 
+ /* Miscellaneous configurable options */
+ #define CONFIG_SYS_LONGHELP
