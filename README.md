@@ -9,5 +9,5 @@ This repository can be used as an initial reference point when creating a new im
 
 - On this example the **example-lxde-image.bb** recipe was created using the [angstrom-lxde-image.bb](https://github.com/bmit-pune/meta-toradex-yocto/blob/master/recipes/images/angstrom-lxde-image.bb) recipe as reference.
 
-- On this example the **imx6dl-colibri-example.dts** file was create using the [imx6dl-colibri-eval-v3.dts](https://github.com/bmit-pune/meta-toradex-yocto/blob/master/recipes/images/angstrom-lxde-image.bb) file as reference.
+- On this example the **imx6dl-colibri-example.dts** file was create using the [imx6dl-colibri-eval-v3.dts](https://github.com/torvalds/linux/blob/master/arch/arm/boot/dts/imx6dl-colibri-eval-v3.dts) file as reference.
 
