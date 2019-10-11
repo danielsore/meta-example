@@ -7,7 +7,7 @@ This repository can be used as an initial reference point when creating a new im
 
 - The **defconfig** can be created running *make savedefconfig* after doing changes on the kernel repository using the *make menuconfig*.
 
-- On this example the **example-lxde-image.bb** recipe was created using the **angstrom-lxde-image.bb** recipe as reference.
+- On this example the **example-lxde-image.bb** recipe was created using the [angstrom-lxde-image.bb](https://github.com/bmit-pune/meta-toradex-yocto/blob/master/recipes/images/angstrom-lxde-image.bb) recipe as reference.
 
-- On this example the **imx6dl-colibri-example.dts** file was create using the **imx6dl-colibri-eval-v3.dts** file as reference.
+- On this example the **imx6dl-colibri-example.dts** file was create using the [imx6dl-colibri-eval-v3.dts](https://github.com/bmit-pune/meta-toradex-yocto/blob/master/recipes/images/angstrom-lxde-image.bb) file as reference.
 
